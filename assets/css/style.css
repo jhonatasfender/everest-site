@@ -2386,7 +2386,7 @@ img {
 
 .banner-carousel .content-box h2 {
 	display: block;
-	font-size: 180px;
+	font-size: 157px;
 	line-height: 1.15em;
 	color: #ffffff;
 	font-weight: 700;
@@ -2416,10 +2416,6 @@ img {
 	-webkit-transition-delay: 300ms;
 	-o-transition-delay: 300ms;
 	transition-delay: 300ms;
-}
-
-.banner-carousel .active .content-box h2.home {
-	font-size: 10rem;
 }
 
 .banner-carousel .content-box .text {
