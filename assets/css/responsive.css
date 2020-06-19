@@ -445,6 +445,17 @@
   .about-section .content-box .icon-box h2.about-email-font-responsive {
     font-size: 1.2rem;
   }
+
+  /* .contact-section .contact-info .phone-column .left-column .col,
+  .contact-section .contact-info .phone-column .right-column .col {
+    margin: 0;
+    text-align: center;
+    width: 69%;
+  }
+
+  .contact-section .contact-info .icon-box .icon-phone-contact {
+    width: 66%;
+  } */
 }
 
 @media only screen and (max-width: 320px) {

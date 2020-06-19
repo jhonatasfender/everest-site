@@ -4459,6 +4459,21 @@ img.lazy-image.loaded {
   margin-bottom: 30px;
 }
 
+.contact-section .contact-info .phone-column .left-column .col,
+.contact-section .contact-info .phone-column .right-column .col {
+  font-size: 0.9rem;
+}
+
+.contact-section .contact-info .row-icon-box {
+  flex-direction: column;
+}
+
+.contact-section .contact-info .phone-column .left-column .col a,
+.contact-section .contact-info .phone-column .right-column .col a {
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+
 .contact-section .icon-box {
   position: relative;
   width: -webkit-max-content;
@@ -4507,17 +4522,17 @@ img.lazy-image.loaded {
   position: absolute;
   content: "";
   left: 0;
-  top: 50%;
+  top: 57%;
   width: 100%;
-  height: 2px;
+  height: 19px;
   background: url(../images/shape/shape-4.png) center no-repeat;
 }
 
 .contact-section .contact-info .border-box .border_middile {
   position: absolute;
   content: "";
-  top: 0;
-  left: 50%;
+  top: 15%;
+  left: 52%;
   width: 2px;
   height: 100%;
   background: url(../images/shape/shape-3.png) center no-repeat;
