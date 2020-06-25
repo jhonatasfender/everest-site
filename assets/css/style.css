@@ -2765,7 +2765,7 @@ img {
 
 .sec-title {
   position: relative;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 .sec-title .sub-title {
@@ -2807,7 +2807,7 @@ img {
   font-size: 80px;
   line-height: 1.1em;
   font-weight: 700;
-  text-transform: capitalize;
+  text-transform: none;
   letter-spacing: -3px;
 }
 
@@ -4242,7 +4242,7 @@ img.lazy-image.loaded {
 
 .team-section {
   position: relative;
-  padding: 120px 0 90px;
+  padding: 100px 0 90px;
   background-size: cover;
 }
 
