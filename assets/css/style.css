@@ -2462,7 +2462,9 @@ img {
 .banner-carousel .content-box h2 span {
   font-weight: 300;
 }
-
+.banner-carousel .content-box h2 span.sub-title-home {
+  font-size: 66%;
+}
 .banner-carousel .active .content-box h2 {
   opacity: 1;
   -webkit-transform: translateY(0);

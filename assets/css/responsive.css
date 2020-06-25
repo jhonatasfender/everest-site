@@ -442,6 +442,12 @@
 }
 
 @media only screen and (max-width: 375px) {
+  .banner-carousel .content-box h2 span.sub-title-home {
+    font-size: 100%;
+  }
+  .banner-carousel .content-box h2 {
+    width: 80%;
+  }
   .about-section .content-box .icon-box h2.about-email-font-responsive {
     font-size: 1.2rem;
   }
@@ -461,5 +467,8 @@
 @media only screen and (max-width: 320px) {
   .about-section .content-box .icon-box h2.about-email-font-responsive {
     font-size: 100%;
+  }
+  .banner-carousel .content-box h2 span.sub-title-home {
+    font-size: 80%;
   }
 }
