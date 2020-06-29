@@ -2875,6 +2875,10 @@ img {
   position: relative;
 }
 
+.main-footer .footer-widget .widget-content .row a {
+  color: #d1641a;
+}
+
 .main-footer .footer-logo {
   position: relative;
   margin-top: -10px;
