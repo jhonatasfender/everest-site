@@ -224,7 +224,7 @@
             <div class="bottom-rotten-curve alternate"></div>
 
             <div class="auto-container">
-                <h1>Sobre nós</h1>
+                <h1>Entre em Contato</h1>
                 <ul class="bread-crumb clearfix">
                     <li><a href="index.html">Home</a></li>
                     <li class="active"><a href="contact.html">Contato</a></li>
@@ -233,157 +233,180 @@
 
         </section>
 
-        <!-- About Section Two -->
-        <section class="about-section-two">
+        <!-- Contact Section Two -->
+        <section class="contact-section-two">
             <div class="auto-container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="image-wrapper">
-                            <div class="image-one">
-                                <img class="lazy-image owl-lazy"
-                                    src="assets/images/resource/image-spacer-for-validation.png"
-                                    data-src="assets/images/resource/image-17.jpg" alt="">
-                            </div>
-                        </div>
+                <div class="contact-form-area">
+                    <div class="sec-title text-center">
+                        <div class="sub-title">Escreva aqui</div>
+                        <h2>Entrar em contato</h2>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="content-box">
-                            <div class="sec-title">
-                                <div class="sub-title">Sobre nós</div>
-                                <h2>Entregamos <br>seu resultado</h2>
-                                <div class="text">A empresa Everest Assessoria e Consultoria, é especialista em créditos
-                                    tributários Federais, Estaduais e Municipais. Foi criada com o intuito de fazer as
-                                    melhores negociações de compras e vendas de Precatórios, de forma ética,
-                                    transparente e com muita qualidade, sendo respaldada nos §§ 13 e 14 do art. 100 da
-                                    Constituição Federal. A Everest vem se tornando uma das empresas mais confiáveis e
-                                    seguras no mercado na negociação de Precatórios e com vasta lista de clientes
-                                    satisfeitos. Somos uma empresa com sede no Distrito Federal e dispomos de ampla
-                                    capilaridade, com filiais distribuídas no território nacional, para melhor atender
-                                    aos nossos clientes, conforme detalhamento no campo contato.</div>
+                    <!-- Contact Form-->
+                    <div class="contact-form">
+                        <form method="post" action="sendemail.php" id="contact-form">
+                            <div class="row clearfix">
+                                <div class="col-md-12 form-group">
+                                    <label for="message">Digite sua mensagem</label>
+                                    <select name="select-people" id="select-people">
+                                        <option value="">Seleciona o tipo de Pessoa</option>
+                                        <option value="Pessoa Física">Pessoa Física</option>
+                                        <option value="Pessoa Jurídica">Pessoa Jurídica</option>
+                                    </select>
+                                    <i class="fas fa-edit"></i>
+                                    <p class="text-danger">Por favor selecione o tipo de pessoa</p>
+                                </div>
                             </div>
-                        </div>
-                    </div>
 
+                            <div class="row clearfix">
+                                <div class="col-md-12 form-group">
+                                    <hr>
+                                </div>
+                            </div>
+
+                            <div class="row clearfix">
+
+                                <div class="col-md-12 form-group">
+                                    <label for="name">Nome completo</label>
+                                    <input type="text" name="username" id="name"
+                                        placeholder="Digite o Nome completo aqui......" required="">
+                                    <i class="fas fa-user"></i>
+                                    <p class="text-danger">Esse campo é obrigatório</p>
+                                    <p class="text-danger">Por favor coloque o seu nome Completo</p>
+                                </div>
+
+                                <div class="col-md-6 form-group">
+                                    <label for="email">CPF</label>
+                                    <input type="email" name="email" id="email" placeholder="Digite o CPF aqui......"
+                                        required="">
+                                    <i class="fas fa-envelope"></i>
+                                    <p class="text-danger">Esse campo é obrigatório</p>
+                                    <p class="text-danger">CPF invalido</p>
+                                </div>
+
+                                <div class="col-md-3 form-group">
+                                    <label for="email">Data de nascimento</label>
+                                    <input type="email" name="email" id="email" required="">
+                                    <i class="fas fa-envelope"></i>
+                                    <p class="text-danger">Esse campo é obrigatório</p>
+                                    <p class="text-danger">Essa data é invalida</p>
+                                </div>
+
+                                <div class="col-md-3 form-group">
+                                    <label for="email">Telefone</label>
+                                    <input type="email" name="email" id="email"
+                                        placeholder="Digite o Telefone aqui......" required="">
+                                    <i class="fas fa-envelope"></i>
+                                    <p class="text-danger">Esse campo é obrigatório</p>
+                                </div>
+
+                                <div class="col-md-12 form-group">
+                                    <label for="email">E-mail</label>
+                                    <input type="email" name="email" id="email" placeholder="Digite o E-mail aqui......"
+                                        required="">
+                                    <i class="fas fa-envelope"></i>
+                                    <p class="text-danger">Esse campo é obrigatório</p>
+                                </div>
+                            </div>
+
+                            <div class="row clearfix">
+
+                                <div class="col-md-12 form-group">
+                                    <label for="name">Nome da empresa</label>
+                                    <input type="text" name="username" id="name"
+                                        placeholder="Digite o Nome da empresa aqui......" required="">
+                                    <i class="fas fa-user"></i>
+                                    <p class="text-danger">Esse campo é obrigatório</p>
+                                    <p class="text-danger">Por favor coloque o seu Nome da empresa</p>
+                                </div>
+
+                                <div class="col-md-6 form-group">
+                                    <label for="email">CNPJ</label>
+                                    <input type="email" name="email" id="email" placeholder="Digite o CNPJ aqui......"
+                                        required="">
+                                    <i class="fas fa-envelope"></i>
+                                    <p class="text-danger">Esse campo é obrigatório</p>
+                                    <p class="text-danger">CNPJ invalido</p>
+                                </div>
+
+                                <div class="col-md-6 form-group">
+                                    <label for="email">Nome do Sócio Administrador ou Preposto </label>
+                                    <input type="email" name="email" id="email"
+                                        placeholder="Digite o Nome do Sócio Administrador ou Preposto  aqui......"
+                                        required="">
+                                    <i class="fas fa-envelope"></i>
+                                    <p class="text-danger">Esse campo é obrigatório</p>
+                                </div>
+
+                                <div class="col-md-6 form-group">
+                                    <label for="email">CPF</label>
+                                    <input type="email" name="email" id="email" placeholder="Digite o CPF aqui......"
+                                        required="">
+                                    <i class="fas fa-envelope"></i>
+                                    <p class="text-danger">Esse campo é obrigatório</p>
+                                    <p class="text-danger">CPF invalido</p>
+                                </div>
+
+                                <div class="col-md-3 form-group">
+                                    <label for="email">Telefone</label>
+                                    <input type="email" name="email" id="email"
+                                        placeholder="Digite o Telefone aqui......" required="">
+                                    <i class="fas fa-envelope"></i>
+                                    <p class="text-danger">Esse campo é obrigatório</p>
+                                </div>
+
+                                <div class="col-md-12 form-group">
+                                    <label for="email">E-mail</label>
+                                    <input type="email" name="email" id="email" placeholder="Digite o E-mail aqui......"
+                                        required="">
+                                    <i class="fas fa-envelope"></i>
+                                    <p class="text-danger">Esse campo é obrigatório</p>
+                                </div>
+                            </div>
+
+                            <div class="row clearfix">
+                                <div class="col-md-12 form-group">
+                                    <hr>
+                                </div>
+                            </div>
+
+                            <div class="row clearfix">
+
+                                <div class="col-md-12 form-group">
+                                    <label for="email">Tipo de Crédito </label>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                        <label class="custom-control-label" for="customCheck1">
+                                            Precatório
+                                        </label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                        <label class="custom-control-label" for="customCheck1">
+                                            Sucumbência
+                                        </label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                        <label class="custom-control-label" for="customCheck1">
+                                            Precatório e Sucumbência
+                                        </label>
+                                    </div>
+                                    <i class="fas fa-envelope"></i>
+                                    <p class="text-danger">Esse campo é obrigatório</p>
+                                </div>
+
+                                <div class="col-md-12 form-group">
+                                    <button class="theme-btn btn-style-one" type="submit" name="submit-form">
+                                        <span class="btn-title">Entrar em contato</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Team Section -->
-        <section class="team-section">
-            <div class="auto-container">
-                <div class="sec-title text-center">
-                    <div class="sub-title">Nosso Time</div>
-                    <h2>Nossas Expertises</h2>
-                </div>
-
-                <div class="row">
-                    <!-- Team Block One -->
-                    <div class="col-lg-4 team-block-one">
-                        <div class="inner-box">
-                            <div class="image"><img class="lazy-image owl-lazy loaded"
-                                    src="assets/images/resource/team-1.jpg" data-src="assets/images/resource/team-1.jpg"
-                                    alt="" data-was-processed="true"></div>
-                            <div class="content">
-                                <div class="designation"></div>
-                                <h3>Creditícia</h3>
-                                <hr>
-                                <h3>Jurídica</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Team Block One -->
-                    <div class="col-lg-4 team-block-one">
-                        <div class="inner-box">
-                            <div class="image"><img class="lazy-image owl-lazy loaded"
-                                    src="assets/images/resource/team-2.jpg" data-src="assets/images/resource/team-2.jpg"
-                                    alt="" data-was-processed="true"></div>
-                            <div class="content">
-                                <div class="designation"></div>
-                                <h3>Contábil</h3>
-                                <hr>
-                                <h3>Tributária</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Team Block One -->
-                    <div class="col-lg-4 team-block-one">
-                        <div class="inner-box">
-                            <div class="image"><img class="lazy-image owl-lazy loaded"
-                                    src="assets/images/resource/team-3.jpg" data-src="assets/images/resource/team-3.jpg"
-                                    alt="" data-was-processed="true"></div>
-                            <div class="content">
-                                <div class="designation"></div>
-                                <h3>Tecnológica</h3>
-                                <hr>
-                                <h3>Analítica</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Services Section Four -->
-        <section class="services-section-four">
-            <div class="auto-container">
-                <div class="sec-title text-center">
-                    <div class="sub-title">Features</div>
-                    <h2>Nossos Recursos</h2>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="icon-box">
-                            <div class="icon"><img src="assets/images/icons/icon-3.png" alt=""></div>
-                            <h2>Fundo Creditório</h2>
-                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="icon-box">
-                            <div class="icon"><img src="assets/images/icons/icon-21.png" alt=""></div>
-                            <h2>Negociação de Propostas</h2>
-                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="icon-box">
-                            <div class="icon"><img src="assets/images/icons/icon-4.png" alt=""></div>
-                            <h2>Análise de Dados</h2>
-                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="icon-box">
-                            <div class="icon"><img src="assets/images/icons/icon-22.png" alt=""></div>
-                            <h2>Acesso à Informação</h2>
-                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="icon-box">
-                            <div class="icon"><img src="assets/images/icons/icon-5.png" alt=""></div>
-                            <h2>Assessoria Especializada</h2>
-                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="icon-box">
-                            <div class="icon"><img src="assets/images/icons/icon-23.png" alt=""></div>
-                            <h2>Planejamento Financeiro</h2>
-                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Sponsors Section -->
         <!-- Main Footer -->
         <footer class="main-footer">
             <div class="auto-container">
@@ -396,9 +419,11 @@
                             <div class="footer-widget logo-widget">
                                 <div class="widget-content">
                                     <div class="footer-logo">
-                                        <a href="index.html"><img class="lazy-image"
+                                        <a href="index.html">
+                                            <img class="lazy-image"
                                                 src="assets/images/resource/image-spacer-for-validation.png"
-                                                data-src="assets/images/footer-logo.png" alt="" /></a>
+                                                data-src="assets/images/footer-logo.png" alt="" />
+                                        </a>
                                     </div>
                                     <div class="text">
                                         Fique por dentro de todas as nossas atualizações através das
@@ -464,6 +489,11 @@
     <script src="assets/js/scrollbar.js"></script>
     <script src="assets/js/TweenMax.min.js"></script>
     <script src="assets/js/script.js"></script>
+
+    <!--Google Map APi Key-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCGQolP9UAaRSqVr8x8sTkcZQ5GmMtQ6I"></script>
+    <script src="assets/js/map-script.js"></script>
+    <!--End Google Map APi-->
 
 </body>
 
