@@ -163,6 +163,10 @@ figure {
   background-color: #f4f4f4 !important;
 }
 
+.hidden {
+  display: none;
+}
+
 /*Btn Style One*/
 
 .btn-style-one {
