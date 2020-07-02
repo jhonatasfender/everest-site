@@ -401,6 +401,14 @@ figure {
   overflow: hidden;
 }
 
+.inner-box .lower-content .text .marcadores-de-lista li {
+  list-style: inside;
+}
+
+.inner-box .lower-content .text .marcadores-de-lista {
+  margin-left: 35px;
+}
+
 .loader-wrap .layer-three {
   position: absolute;
   left: 66.6666%;
