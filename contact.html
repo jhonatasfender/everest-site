@@ -79,7 +79,7 @@
                                     <div class="text">Número de telefone</div>
                                     <h4>
                                         <a href="https://api.whatsapp.com/send?phone=5561996650556&text=Ol%C3%A1,%20Everest.%20Me%20ajude%20a%20receber%20meus%20precat%C3%B3rios!"
-                                            target="_blank">
+                                           target="_blank">
                                             +987 876 876 76
                                         </a>
                                     </h4>
@@ -97,8 +97,10 @@
                         </div>
 
                         <div class="top-right">
-                            <a href="#" class="theme-btn btn-style-two">
-                                <span class="fab fa-whatsapp"></span>
+                            <a href="form-precatorios.html" class="theme-btn btn-style-two">
+                                <span class="btn-title">
+                                    RECEBER PRECATÓRIO
+                                </span>
                             </a>
                         </div>
                     </div>
@@ -198,7 +200,7 @@
                         <div class="form-group">
                             <fieldset>
                                 <input type="search" class="form-control" name="search-input" value=""
-                                    placeholder="Search Here" required>
+                                       placeholder="Search Here" required>
                                 <input type="submit" value="Search Now!" class="theme-btn">
                             </fieldset>
                         </div>
@@ -236,8 +238,8 @@
         <section class="map-section">
             <div class="map-column">
                 <div class="map-canvas" data-zoom="15" data-lat="-15.8153261" data-lng="-47.9607529" data-type="roadmap"
-                    data-hue="#d1641a" data-title="EVEREST" data-icon-path="assets/images/icons/map-marker.png"
-                    data-content="Sia trecho 03, lote 1310/20, sala 321, Brasília-DF, CEP: 71200-030<br><a href='mailto:contato@creditoseverest.com.br'>contato@creditoseverest.com.br</a>">
+                     data-hue="#d1641a" data-title="EVEREST" data-icon-path="assets/images/icons/map-marker.png"
+                     data-content="Sia trecho 03, lote 1310/20, sala 321, Brasília-DF, CEP: 71200-030<br><a href='mailto:contato@creditoseverest.com.br'>contato@creditoseverest.com.br</a>">
                 </div>
             </div>
         </section>
@@ -254,7 +256,7 @@
                                     <h3>Endereço de e-mail</h3>
                                     <ul>
                                         <li><a
-                                                href="mailto:contato@creditoseverest.com.br">contato@creditoseverest.com.br</a>
+                                               href="mailto:contato@creditoseverest.com.br">contato@creditoseverest.com.br</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -298,27 +300,35 @@
                     </div>
                     <!-- Contact Form-->
                     <div class="contact-form">
-                        <form method="post" action="sendemail.php" id="contact-form">
+                        <form id="contact-form">
                             <div class="row clearfix">
                                 <div class="col-md-6 form-group">
                                     <label for="name">Digite seu nome</label>
-                                    <input type="text" name="username" id="name" placeholder="Digite o nome aqui......"
-                                        required="">
+                                    <input type="text" name="username" id="name" placeholder="Digite o nome aqui......">
                                     <i class="fas fa-user"></i>
+
+                                    <p class="text-danger hidden username-require">Esse campo é obrigatório</p>
+                                    <p class="text-danger hidden username-full-name">Por favor digite o seu nome completo
+                                    </p>
                                 </div>
 
                                 <div class="col-md-6 form-group">
                                     <label for="email">Digite o seu email</label>
-                                    <input type="email" name="email" id="email" placeholder="Digite o email aqui......"
-                                        required="">
+                                    <input type="email" name="email" id="email" placeholder="Digite o email aqui......">
                                     <i class="fas fa-envelope"></i>
+
+                                    <p class="text-danger hidden email-require">Esse campo é obrigatório</p>
+                                    <p class="text-danger hidden email-invalid">Esse email que você digitou não é valido!
+                                    </p>
                                 </div>
 
                                 <div class="col-md-12 form-group">
                                     <label for="message">Digite sua mensagem</label>
-                                    <textarea name="message" id="message" placeholder="Digite a mensagem aqui......">
-                                    </textarea>
+                                    <textarea name="message" id="message" placeholder="Digite a mensagem aqui......"></textarea>
                                     <i class="fas fa-edit"></i>
+
+                                    <p class="text-danger hidden message-require">Esse campo é obrigatório</p>
+                                    <p class="text-danger hidden message-very-short">Essa mensagem que você digitou é muito curta, por favor precisamos saber mais dos detalhes</p>
                                 </div>
 
                                 <div class="col-md-12 form-group">
@@ -347,8 +357,8 @@
                                     <div class="footer-logo">
                                         <a href="index.html">
                                             <img class="lazy-image"
-                                                src="assets/images/resource/image-spacer-for-validation.png"
-                                                data-src="assets/images/footer-logo.png" alt="" />
+                                                 src="assets/images/resource/image-spacer-for-validation.png"
+                                                 data-src="assets/images/footer-logo.png" alt="" />
                                         </a>
                                     </div>
                                     <div class="text">
@@ -400,7 +410,9 @@
     <!--End pagewrapper-->
 
     <!--Scroll to top-->
-    <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fal fa-arrow-circle-up"></span></div>
+    <div class="scroll-to-top scroll-to-target" data-target="html">
+        <span class="fal fa-arrow-circle-up"></span>
+    </div>
 
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/popper.min.js"></script>
@@ -415,6 +427,7 @@
     <script src="assets/js/scrollbar.js"></script>
     <script src="assets/js/TweenMax.min.js"></script>
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/contact.js"></script>
 
     <!--Google Map APi Key-->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCGQolP9UAaRSqVr8x8sTkcZQ5GmMtQ6I"></script>

@@ -79,7 +79,7 @@
                                     <div class="text">Número de telefone</div>
                                     <h4>
                                         <a href="https://api.whatsapp.com/send?phone=5561996650556&text=Ol%C3%A1,%20Everest.%20Me%20ajude%20a%20receber%20meus%20precat%C3%B3rios!"
-                                            target="_blank">
+                                           target="_blank">
                                             +987 876 876 76
                                         </a>
                                     </h4>
@@ -97,8 +97,10 @@
                         </div>
 
                         <div class="top-right">
-                            <a href="#" class="theme-btn btn-style-two">
-                                <span class="fab fa-whatsapp"></span>
+                            <a href="form-precatorios.html" class="theme-btn btn-style-two">
+                                <span class="btn-title">
+                                    RECEBER PRECATÓRIO
+                                </span>
                             </a>
                         </div>
                     </div>
@@ -197,8 +199,7 @@
                     <form method="post" action="index.html">
                         <div class="form-group">
                             <fieldset>
-                                <input type="search" class="form-control" name="search-input" value=""
-                                    placeholder="Search Here" required>
+                                <input type="search" class="form-control" name="search-input" value="" required>
                                 <input type="submit" value="Search Now!" class="theme-btn">
                             </fieldset>
                         </div>
@@ -242,156 +243,150 @@
                     </div>
                     <!-- Contact Form-->
                     <div class="contact-form">
-                        <form method="post" action="sendemail.php" id="form-precatorios">
+                        <form id="form-precatorios">
                             <div class="row clearfix">
                                 <div class="col-md-12 form-group">
-                                    <label for="select-people">Digite sua mensagem</label>
+                                    <label for="select-people">Escolha o tipo de pessoa</label>
                                     <select name="select-people" id="select-people">
                                         <option value="">Seleciona o tipo de Pessoa</option>
                                         <option value="Pessoa Física">Pessoa Física</option>
                                         <option value="Pessoa Jurídica">Pessoa Jurídica</option>
                                     </select>
                                     <i class="fas fa-edit"></i>
-                                    <p class="text-danger">Por favor selecione o tipo de pessoa</p>
+                                    <p class="text-danger hidden select-people-required">Por favor selecione o tipo de pessoa</p>
                                 </div>
                             </div>
 
-                            <div class="row clearfix hidden">
+                            <div class="row clearfix hidden hr-after-selectbox">
                                 <div class="col-md-12 form-group">
                                     <hr>
                                 </div>
                             </div>
 
-                            <div class="row clearfix hidden">
+                            <div class="row clearfix hidden pf">
 
                                 <div class="col-md-12 form-group">
-                                    <label for="name">Nome completo</label>
-                                    <input type="text" name="username" id="name"
-                                        placeholder="Digite o Nome completo aqui......" required="">
+                                    <label for="name-pf">Nome completo</label>
+                                    <input type="text" name="name-pf" id="name-pf">
                                     <i class="fas fa-user"></i>
-                                    <p class="text-danger">Esse campo é obrigatório</p>
-                                    <p class="text-danger">Por favor coloque o seu nome Completo</p>
+                                    <p class="text-danger hidden name-pf-required">Esse campo é obrigatório</p>
+                                    <p class="text-danger hidden name-pf-full">Por favor coloque o seu nome Completo</p>
                                 </div>
 
                                 <div class="col-md-6 form-group">
-                                    <label for="email">CPF</label>
-                                    <input type="email" name="email" id="email" placeholder="Digite o CPF aqui......"
-                                        required="">
+                                    <label for="cpf-pf">CPF</label>
+                                    <input type="text" name="cpf-pf" id="cpf-pf">
                                     <i class="fas fa-envelope"></i>
-                                    <p class="text-danger">Esse campo é obrigatório</p>
-                                    <p class="text-danger">CPF invalido</p>
+                                    <p class="text-danger hidden cpf-pf-required">Esse campo é obrigatório</p>
+                                    <p class="text-danger hidden cpf-pf-invalid">CPF invalido</p>
                                 </div>
 
                                 <div class="col-md-3 form-group">
-                                    <label for="email">Data de nascimento</label>
-                                    <input type="email" name="email" id="email" required="">
+                                    <label for="data-pf">Data de nascimento</label>
+                                    <input type="text" name="data-pf" id="data-pf" class="data-format">
                                     <i class="fas fa-envelope"></i>
-                                    <p class="text-danger">Esse campo é obrigatório</p>
-                                    <p class="text-danger">Essa data é invalida</p>
+                                    <p class="text-danger hidden data-pf-required">Esse campo é obrigatório</p>
+                                    <p class="text-danger hidden data-pf-invalid">Essa data é invalida</p>
                                 </div>
 
                                 <div class="col-md-3 form-group">
-                                    <label for="email">Telefone</label>
-                                    <input type="email" name="email" id="email"
-                                        placeholder="Digite o Telefone aqui......" required="">
+                                    <label for="phone-pf">Telefone</label>
+                                    <input type="text" name="phone-pf" id="phone-pf" class="phone-format">
                                     <i class="fas fa-envelope"></i>
-                                    <p class="text-danger">Esse campo é obrigatório</p>
+                                    <p class="text-danger hidden phone-pf-required">Esse campo é obrigatório</p>
                                 </div>
 
                                 <div class="col-md-12 form-group">
-                                    <label for="email">E-mail</label>
-                                    <input type="email" name="email" id="email" placeholder="Digite o E-mail aqui......"
-                                        required="">
+                                    <label for="email-pf">E-mail</label>
+                                    <input type="text" name="email-pf" id="email-pf">
                                     <i class="fas fa-envelope"></i>
-                                    <p class="text-danger">Esse campo é obrigatório</p>
+                                    <p class="text-danger hidden email-pf-required">Esse campo é obrigatório</p>
+                                    <p class="text-danger hidden email-pf-invalid">Esse email não é valido</p>
                                 </div>
                             </div>
 
-                            <div class="row clearfix hidden">
+                            <div class="row clearfix hidden pj">
 
                                 <div class="col-md-12 form-group">
-                                    <label for="name">Nome da empresa</label>
-                                    <input type="text" name="username" id="name"
-                                        placeholder="Digite o Nome da empresa aqui......" required="">
+                                    <label for="company-name-pj">Nome da empresa</label>
+                                    <input type="text" name="company-name-pj" id="company-name-pj">
                                     <i class="fas fa-user"></i>
-                                    <p class="text-danger">Esse campo é obrigatório</p>
-                                    <p class="text-danger">Por favor coloque o seu Nome da empresa</p>
+                                    <p class="text-danger hidden company-name-pj-required">Esse campo é obrigatório</p>
+                                    <p class="text-danger hidden company-name-pj-full">Por favor coloque o seu Nome da
+                                        empresa</p>
                                 </div>
 
-                                <div class="col-md-6 form-group">
-                                    <label for="email">CNPJ</label>
-                                    <input type="email" name="email" id="email" placeholder="Digite o CNPJ aqui......"
-                                        required="">
+                                <div class="col-md-12 form-group">
+                                    <label for="name-socio-pj">Nome do Sócio Administrador ou Preposto </label>
+                                    <input type="text" name="name-socio-pj" id="name-socio-pj">
                                     <i class="fas fa-envelope"></i>
-                                    <p class="text-danger">Esse campo é obrigatório</p>
-                                    <p class="text-danger">CNPJ invalido</p>
+                                    <p class="text-danger hidden name-socio-pj-required">Esse campo é obrigatório</p>
+                                    <p class="text-danger hidden name-socio-pj-full">Por favor coloque o seu Nome da
+                                        empresa</p>
                                 </div>
 
-                                <div class="col-md-6 form-group">
-                                    <label for="email">Nome do Sócio Administrador ou Preposto </label>
-                                    <input type="email" name="email" id="email"
-                                        placeholder="Digite o Nome do Sócio Administrador ou Preposto  aqui......"
-                                        required="">
+                                <div class="col-md-5 form-group">
+                                    <label for="cnpj-pj">CNPJ</label>
+                                    <input type="text" name="cnpj-pj" id="cnpj-pj">
                                     <i class="fas fa-envelope"></i>
-                                    <p class="text-danger">Esse campo é obrigatório</p>
+                                    <p class="text-danger hidden cnpj-pj-required">Esse campo é obrigatório</p>
+                                    <p class="text-danger hidden cnpj-pj-invalid">CNPJ invalido</p>
                                 </div>
 
-                                <div class="col-md-6 form-group">
-                                    <label for="email">CPF</label>
-                                    <input type="email" name="email" id="email" placeholder="Digite o CPF aqui......"
-                                        required="">
+                                <div class="col-md-4 form-group">
+                                    <label for="cpf-pj">CPF</label>
+                                    <input type="text" name="cpf-pj" id="cpf-pj">
                                     <i class="fas fa-envelope"></i>
-                                    <p class="text-danger">Esse campo é obrigatório</p>
-                                    <p class="text-danger">CPF invalido</p>
+                                    <p class="text-danger hidden cpf-pj-required">Esse campo é obrigatório</p>
+                                    <p class="text-danger hidden cpf-pj-invalid">CPF invalido</p>
                                 </div>
 
                                 <div class="col-md-3 form-group">
-                                    <label for="email">Telefone</label>
-                                    <input type="email" name="email" id="email"
-                                        placeholder="Digite o Telefone aqui......" required="">
+                                    <label for="phone-pj">Telefone</label>
+                                    <input type="text" name="phone-pj" id="phone-pj" class="phone-format">
                                     <i class="fas fa-envelope"></i>
-                                    <p class="text-danger">Esse campo é obrigatório</p>
+                                    <p class="text-danger hidden phone-pj-required">Esse campo é obrigatório</p>
                                 </div>
 
                                 <div class="col-md-12 form-group">
-                                    <label for="email">E-mail</label>
-                                    <input type="email" name="email" id="email" placeholder="Digite o E-mail aqui......"
-                                        required="">
+                                    <label for="email-pj">E-mail</label>
+                                    <input type="text" name="email-pj" id="email-pj">
                                     <i class="fas fa-envelope"></i>
-                                    <p class="text-danger">Esse campo é obrigatório</p>
+                                    <p class="text-danger hidden email-pj-required">Esse campo é obrigatório</p>
+                                    <p class="text-danger hidden email-pj-invalid">Esse email não é valido</p>
                                 </div>
                             </div>
 
-                            <div class="row clearfix hidden">
+                            <div class="row clearfix hidden hr-before-type-credit">
                                 <div class="col-md-12 form-group">
                                     <hr>
                                 </div>
                             </div>
 
-                            <div class="row clearfix hidden">
+                            <div class="row clearfix hidden type-credit">
 
                                 <div class="col-md-12 form-group">
                                     <label for="email">Tipo de Crédito </label>
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                        <label class="custom-control-label" for="customCheck1">
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" class="custom-control-input" id="precatorio" name="type-credit" value="Precatório">
+                                        <label class="custom-control-label" for="precatorio">
                                             Precatório
                                         </label>
                                     </div>
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                        <label class="custom-control-label" for="customCheck1">
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" class="custom-control-input" id="sucubencia" name="type-credit" value="Sucumbência">
+                                        <label class="custom-control-label" for="sucubencia">
                                             Sucumbência
                                         </label>
                                     </div>
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                        <label class="custom-control-label" for="customCheck1">
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" class="custom-control-input" id="precatorio-sucumbencia" name="type-credit" value="Precatório e Sucumbência">
+                                        <label class="custom-control-label" for="precatorio-sucumbencia">
                                             Precatório e Sucumbência
                                         </label>
                                     </div>
                                     <i class="fas fa-envelope"></i>
-                                    <p class="text-danger">Esse campo é obrigatório</p>
+                                    <p class="text-danger hidden type-credit-required">Esse campo é obrigatório</p>
                                 </div>
 
                                 <div class="col-md-12 form-group">
@@ -420,8 +415,8 @@
                                     <div class="footer-logo">
                                         <a href="index.html">
                                             <img class="lazy-image"
-                                                src="assets/images/resource/image-spacer-for-validation.png"
-                                                data-src="assets/images/footer-logo.png" alt="" />
+                                                 src="assets/images/resource/image-spacer-for-validation.png"
+                                                 data-src="assets/images/footer-logo.png" alt="" />
                                         </a>
                                     </div>
                                     <div class="text">
@@ -473,7 +468,9 @@
     <!--End pagewrapper-->
 
     <!--Scroll to top-->
-    <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fal fa-arrow-circle-up"></span></div>
+    <div class="scroll-to-top scroll-to-target" data-target="html">
+        <span class="fal fa-arrow-circle-up"></span>
+    </div>
 
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/popper.min.js"></script>
@@ -487,6 +484,7 @@
     <script src="assets/js/lazyload.js"></script>
     <script src="assets/js/scrollbar.js"></script>
     <script src="assets/js/TweenMax.min.js"></script>
+    <script src="assets/js/jquery.mask.min.js"></script>
     <script src="assets/js/script.js"></script>
     <script src="assets/js/form.js"></script>
 
