@@ -443,13 +443,20 @@
 
 @media only screen and (max-width: 375px) {
   .banner-carousel .content-box h2 span.sub-title-home {
-    font-size: 100%;
+    font-size: 70%;
   }
   .banner-carousel .content-box h2 {
     width: 80%;
+    font-size: 55px;
   }
   .about-section .content-box .icon-box h2.about-email-font-responsive {
     font-size: 1.2rem;
+  }
+  .welcome-block-one .inner-box {
+    margin-top: 7px;
+  }
+  .contact-section-two .contact-info {
+    margin-top: 5px;
   }
 
   /* .contact-section .contact-info .phone-column .left-column .col,

@@ -3202,7 +3202,6 @@ img.lazy-image.loaded {
 .welcome-block-one {
   position: relative;
   padding: 0;
-  margin-top: -37px
 }
 
 .welcome-block-one .inner-box {
@@ -4181,7 +4180,7 @@ img.lazy-image.loaded {
 
 .why-chooseus-section {
   position: relative;
-  padding: 120px 0 90px;
+  padding: 120px 0 65px;
 }
 
 /* Tab style one */
@@ -4475,7 +4474,7 @@ img.lazy-image.loaded {
 
 .contact-section {
   position: relative;
-  padding: 100px 0 90px;
+  padding: 35px 0 90px;
 }
 
 .contact-section .contact-form {
