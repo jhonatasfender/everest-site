@@ -3201,7 +3201,7 @@ img.lazy-image.loaded {
 
 .welcome-block-one {
   position: relative;
-  padding: 0;
+  padding: 0;  
 }
 
 .welcome-block-one .inner-box {
@@ -3213,6 +3213,9 @@ img.lazy-image.loaded {
   text-align: center;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(165, 165, 165, 0.9);
   box-shadow: 0px 8px 16px 0px rgba(165, 165, 165, 0.9);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 105%;
 }
 
 .welcome-block-one:nth-child(2) .inner-box {

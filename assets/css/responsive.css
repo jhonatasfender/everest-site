@@ -16,6 +16,12 @@
   }
 }
 
+@media only screen and (max-width: 1440px){
+  .welcome-block-one:nth-child(2) .inner-box {
+    background-size: 440px
+  }  
+}
+
 @media only screen and (max-width: 1199px) {
   .main-header .header-top .top-middile .language {
     padding: 26.5px 10px;
@@ -109,6 +115,13 @@
   }
 }
 
+@media only screen and (max-width: 1024px) {
+  .welcome-block-one:nth-child(2) .inner-box {
+    background-size: 460px;
+  }
+}
+
+
 @media only screen and (max-width: 991px) {
   .contact-section .contact-form {
     margin-right: 0;
@@ -175,6 +188,9 @@
   }
   .contact-section-two .contact-info {
     margin-top: 5px;
+  }
+  .welcome-block-one .inner-box{
+    background-size: 100%;
   }
 }
 
@@ -457,6 +473,9 @@
   .contact-section-two .contact-info {
     margin-top: 5px;
   }
+  .welcome-block-one .inner-box{
+    background-size: 105%;
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -467,6 +486,9 @@
     width: 80%;
     font-size: 55px;
   }
+  .welcome-block-one .inner-box{
+    background-size: 120%;
+   } 
   .about-section .content-box .icon-box h2.about-email-font-responsive {
     font-size: 1.2rem;
   }
@@ -498,6 +520,9 @@
   }
   .fact-counter .counter-title {
     font-size: 14px;
+  }
+  .welcome-block-one .inner-box{
+    background-size: 165%;
   }
   .welcome-block-one:nth-child(2) .inner-box {
     margin-top: 37px;
