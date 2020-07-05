@@ -170,6 +170,12 @@
     visibility: hidden;
     opacity: 0;
   }
+  .welcome-block-one .inner-box {
+    margin-top: 5px;
+  }
+  .contact-section-two .contact-info {
+    margin-top: 5px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -451,6 +457,7 @@
   .contact-section-two .contact-info {
     margin-top: 5px;
   }
+}
 
 @media only screen and (max-width: 375px) {
   .banner-carousel .content-box h2 span.sub-title-home {
