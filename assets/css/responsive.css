@@ -441,6 +441,17 @@
   }
 }
 
+@media only screen and (max-width: 425px) {
+  .welcome-block-one .inner-box {
+    margin-top: 7px;
+  }
+  .banner-carousel .content-box h2 {
+    font-size: 43px;
+  }
+  .contact-section-two .contact-info {
+    margin-top: 5px;
+  }
+
 @media only screen and (max-width: 375px) {
   .banner-carousel .content-box h2 span.sub-title-home {
     font-size: 70%;
