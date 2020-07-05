@@ -471,4 +471,49 @@
   .banner-carousel .content-box h2 span.sub-title-home {
     font-size: 80%;
   }
+  .fact-counter .counter-title {
+    font-size: 14px;
+  }
+  .welcome-block-one:nth-child(2) .inner-box {
+    margin-top: 37px;
+  }
+  .sec-title h2 {
+    font-size: 49px;
+  }
+  .services-section .icon-box h2 {
+    font-size: 23px;
+  }
+  .services-section .icon-box .icon {
+    left: -13px;
+  }
+  .services-section .icon-box {
+    position: relative;
+    padding-left: 81px;
+    margin-right: -32px;
+    min-height: 100px;
+  }
+  .welcome-section {
+    padding: 120px 0 65px;
+  }
+  .why-chooseus-section {
+   padding: 120px 0 0px; 
+  }
+  .services-section-four .icon-box h2 {
+    font-size: 26px;
+  }
+  .services-section-five .tab-content .sec-title h2 {
+    font-size: 39px;
+  }
+  .contact-section-two .contact-info {
+    margin-top: 5px;
+  }
+  .contact-section-two .icon-box ul li {
+    font-size: 17px;
+  }
+  .contact-section-two .icon-box {
+    padding: 65px 10px;
+  }
+  .blog-single-post h2 {
+    font-size: 30px;
+  }
 }

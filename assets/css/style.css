@@ -3202,6 +3202,7 @@ img.lazy-image.loaded {
 .welcome-block-one {
   position: relative;
   padding: 0;
+  margin-top: -37px
 }
 
 .welcome-block-one .inner-box {
@@ -3653,6 +3654,7 @@ img.lazy-image.loaded {
   min-height: 160px;
   max-width: 490px;
   margin-right: 15px;
+  padding-top: 15px
 }
 
 .services-section .author-box .author-thumb {
@@ -4473,7 +4475,7 @@ img.lazy-image.loaded {
 
 .contact-section {
   position: relative;
-  padding: 120px 0 90px;
+  padding: 100px 0 90px;
 }
 
 .contact-section .contact-form {
