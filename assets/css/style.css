@@ -3201,7 +3201,7 @@ img.lazy-image.loaded {
 
 .welcome-block-one {
   position: relative;
-  padding: 0;  
+  padding: 0;
 }
 
 .welcome-block-one .inner-box {
@@ -3656,7 +3656,7 @@ img.lazy-image.loaded {
   min-height: 160px;
   max-width: 490px;
   margin-right: 15px;
-  padding-top: 15px
+  padding-top: 15px;
 }
 
 .services-section .author-box .author-thumb {
@@ -9452,4 +9452,33 @@ img.lazy-image.loaded {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+
+.btn-animation-custon-send {
+  transition: all 1s cubic-bezier(0.67, 0.17, 0.4, 0.83);
+}
+
+.btn-animation-custon-send svg {
+  transform: rotate(182deg);
+  transition: all 1s;
+}
+
+.contact-form .theme-btn.btn-style-one.btn-animation-custon-send-first,
+.contact-section .theme-btn.btn-style-one.btn-animation-custon-send-first {
+  width: 100%;
+  transition: all 1s;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.button__circle {
+  background: mediumseagreen;
+  border-radius: 50%;
+  transform: rotate(-180deg);
+  height: 8rem;
+  width: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
