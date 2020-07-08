@@ -242,7 +242,11 @@ Tipo de Crédito : ${$('input[name="type-credit"]:checked').val()}
         buttonText.text("Entrar em contato");
         buttonText.removeClass("button__circle").addClass("btn-title")
         button.removeClass("btn-animation-custon-send-first")
-        $("#contact-form").get(0).reset()
+        $("#form-precatorios").get(0).reset()
+
+        $(".hr-after-selectbox, .pf, .pj, .type-credit, .hr-before-type-credit").addClass("hidden")
+        valid = false
+
       }, 3000);
 
     }
